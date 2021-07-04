@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Dapr;
 using FineCollectionService.DomainServices;
 using FineCollectionService.Helpers;
 using FineCollectionService.Models;
@@ -34,6 +35,7 @@ namespace FineCollectionService.Controllers
             }
         }
 
+        [Topic("pubsub", "speedingviolations")]
         [Route("collectfine")]
         [HttpPost()]
         public async Task<ActionResult> CollectFine(SpeedingViolation speedingViolation)
