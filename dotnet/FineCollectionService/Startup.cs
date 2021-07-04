@@ -23,6 +23,10 @@ namespace FineCollectionService
         {
             services.AddSingleton<IFineCalculator, HardCodedFineCalculator>();
 
+            services.AddDaprClient(builder => builder
+              .UseHttpEndpoint($"http://localhost:3601")
+              .UseGrpcEndpoint($"http://localhost:60001"));
+
             // add service proxies
             services.AddSingleton<VehicleRegistrationService>(_ =>
                 new VehicleRegistrationService(DaprClient.CreateInvokeHttpClient(
