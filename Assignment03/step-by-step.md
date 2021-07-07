@@ -106,7 +106,7 @@ As you can see, you specify a different type of pub/sub component (`pubsub.rabbi
 
 ## Step 3: Send messages from the TrafficControlService
 
-With the Dapr pub/sub building block, you use a *topic* to send and receive messages. The producer sends messages to the topic and a (or more) consumer(s) subscribe to this topic to receive messages. First you are going to prepare the TrafficControlService so it can send messages using Dapr pub/sub.
+With the Dapr pub/sub building block, you use a *topic* to send and receive messages. The producer sends messages to the topic and one or more consumers subscribe to this topic to receive those messages. First you are going to prepare the TrafficControlService so it can send messages using Dapr pub/sub.
 
 1. Open the file `src/TrafficControlService/Controllers/TrafficController.cs` in VS Code.
 
@@ -232,7 +232,7 @@ You should see the same logs as before. Obviously, the behavior of the applicati
 time="2021-02-27T16:46:02.5989612+01:00" level=info msg="app is subscribed to the following topics: [speedingviolations] through pubsub=pubsub" app_id=finecollectionservice instance=EDWINW01 scope=dapr.runtime type=log ver=1.0.0
 ```
 
-So you can see that Dapr has asked the service which topics it want to subscribes to and created the necessary subscription to the `speedingviolations` topic.
+So you can see that Dapr has registered a subscription for the FineCollectionService to the `speedingviolations` topic.
 
 ## Step 6: Receive messages in the FineCollectionService (programmatic)
 
