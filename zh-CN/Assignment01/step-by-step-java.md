@@ -25,7 +25,7 @@
 
 3. 确保当前文件夹是`VehicleRegistrationService` 。
 
-4. Start the service using `mvn spring-boot:run`.
+4. `mvn spring-boot:run`启动服务。
 
 > 如果您在此处收到错误消息，请仔细检查您是否已安装工作坊的[所有预装软件！](../README.md#Prerequisites)
 
@@ -35,7 +35,7 @@
 
 2. 在文件中点击`Send request`发送到API的请求：
 
-    ![REST client](img/rest-client.png)
+    ![REST客户端](img/rest-client.png)
 
 3. 请求的响应将显示在右侧的单独窗口中。它应该是一个带有 HTTP 状态码`200 OK`的响应，并且正文应该包含一些随机的车辆和所有者信息：
 
