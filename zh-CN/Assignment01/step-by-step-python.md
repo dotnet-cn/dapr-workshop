@@ -11,7 +11,6 @@
 
 提醒一下，这就是服务之间的交互方式：
 
-
 <img src="../img/services.png" style="zoom: 67%;">
 
 ## 步骤 1. 运行 VehicleRegistration 服务
