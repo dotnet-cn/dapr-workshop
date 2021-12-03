@@ -11,7 +11,6 @@
 
 提醒一下，这就是服务之间的交互方式：
 
-
 <img src="../img/services.png" style="zoom: 67%;">
 
 ## 步骤 1. 运行 VehicleRegistration 服务
@@ -36,7 +35,7 @@
 
 2. 在文件中点击`Send request`发送到API的请求：
 
-    ![REST client](img/rest-client.png)
+    ![REST客户端](img/rest-client.png)
 
 3. 请求的响应将显示在右侧的单独窗口中。它应该是一个带有 HTTP 状态码`200 OK`的响应，并且正文应该包含一些随机的车辆和所有者信息：
 
