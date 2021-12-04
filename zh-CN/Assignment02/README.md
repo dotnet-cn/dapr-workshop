@@ -6,7 +6,6 @@
 
 在微服务应用中，重要的是能够在不知道其他服务所在位置的情况下与其他服务进行通信，特别是当服务在 Kubernetes（或其他一些编排平台）中运行时，服务可以随时移动，或者替换为新版本。这就是 Dapr 服务调用构建块的用武之地。它的工作原理如下：
 
-
 <img src="img/service-invocation.png" style="zoom: 33%;">
 
 在 Dapr 中，每个服务都以一个唯一的 Id（ *app-id* ）启动，可用于查找到该服务。假设服务 A 想要呼叫服务 B。
@@ -31,7 +30,6 @@
 - FineCollectionService 使用 Dapr 服务调用构建块来调用`/vehicleinfo/{licensenumber}`终端。
 
 此作业是end-state设置中的**第 1 项：**
-
 
 <img src="../img/dapr-setup.png" style="zoom: 67%;">
 
