@@ -9,7 +9,6 @@
 
 此作业是end-state设置中的**第 1 项：**
 
-
 <img src="../img/dapr-setup.png" style="zoom: 67%;">
 
 ## 第 1 步：使用 Dapr 启动 VehicleRegistrationService
