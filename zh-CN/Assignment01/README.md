@@ -11,6 +11,7 @@
 
 提醒一下，这就是服务之间的交互方式：
 
+
 <img src="../img/services.png" style="zoom: 67%;">
 
 ## 分步说明
@@ -25,4 +26,4 @@
 
 在继续下一个任务之前，请确保停止所有正在运行的进程并关闭 VS Code 中的所有终端窗口。
 
-转到[作业 2](../Assignment02/README.md) 。
+跳到[作业 2](../Assignment02/README.md) 。
