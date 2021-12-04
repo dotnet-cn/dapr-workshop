@@ -11,6 +11,7 @@
 
 提醒一下，这就是服务之间的交互方式：
 
+
 <img src="../img/services.png" style="zoom: 67%;">
 
 ## 步骤 1. 运行 VehicleRegistration 服务
@@ -179,4 +180,4 @@
 
 > 您可以通过单击标题栏中的垃圾桶图标来快速关闭终端窗口：![](img/terminal-trashcan.png)
 
-转到[作业 2](../Assignment02/README.md) 。
+跳到[作业 2](../Assignment02/README.md) 。
